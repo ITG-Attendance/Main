@@ -93,6 +93,7 @@ div.content {
     background-color: rgb(0, 0, 0);
     /* Black fallback color */
     background-color: rgba(0, 0, 0, 0.9);
+
     /* Black w/opacity */
     overflow-x: hidden;
     /* Disable horizontal scroll */

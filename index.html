@@ -23,9 +23,14 @@
 
         <!-- Overlay content -->
         <div class="overlay-content">
-            <label style="color:white;"for="fname">Date:</label><--Udělat takový ten vyskakovací kalendář-->
-            <input type="text" id="fname" name="fname"><br><br>
-            <a href="#">ZMRD CHYBĚL</a><--Přišel pozdě / v čas-->
+            <label style="color:white;" for="date">Date</label>
+            <input type="date" id="date" aria-describedby="date-format" min="2021-03-01" max="2031-01-01" />
+            <div></div>
+            <label style="color:greenyellow;">In Time</label> 
+            <input type="checkbox" name=""id="">
+            <label style="color:red;">Late</label> 
+            <input type="checkbox" name="" id="">
+            <div></div>
             <label style="color:white;"for="fname">User:</label>
             <input type="text" id="fname" name="fname"><br><br>
             <button onclick="getElementById('demo').innerHTML = Click()">Search</button>
