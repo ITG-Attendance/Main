@@ -13,26 +13,28 @@
 
     <div class="sidebar">
         <img src="ITGAS-Trans.png" style="width: 200px; height: 66px" padding="">
-        <a class="active" href="#home">Home<div id="myNav" class="overlay">
+        <a class="active" href="#home"><span onclick="openNav()">Home</span></a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a><div id="myNav" class="overlay">
 
             <!-- Button to close the overlay navigation -->
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
         <!-- Overlay content -->
         <div class="overlay-content">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+            <label style="color:white;"for="fname">Date:</label><--Udělat takový ten vyskakovací kalendář-->
+            <input type="text" id="fname" name="fname"><br><br>
+            <a href="#">ZMRD CHYBĚL</a><--Přišel pozdě / v čas-->
+            <label style="color:white;"for="fname">User:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <button onclick="getElementById('demo').innerHTML = Click()">Search</button>
         </div>
 
     </div>
 
     <!-- Use any element to open/show the overlay navigation menu -->
-    <span onclick="openNav()">open</span></a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    
     </div>
 
     <div class="content">
