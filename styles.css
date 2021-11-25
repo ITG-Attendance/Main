@@ -20,6 +20,10 @@ body {
     text-decoration: none;
 }
 
+.sidebar a:not(.active){
+    display: block;
+}
+
 .sidebar a.active {
     background-color: #f3ed65;
     color: rgb(0, 0, 0);
