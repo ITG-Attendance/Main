@@ -15,11 +15,12 @@
         <img src="ITGAS-Trans.png" style="width: 200px; height: 66px" padding="">
         <!--nějak udělat aby to zabýralo celé tlačítko ne jen "Home"-->
         <a class="active" href="#home">Home</a>
-        <a><span style="display: block;" onclick="openFilter()">Arived</span></a>
-        <a><span style="display: block;" onclick="openNav()">Not Arived</span></a>
+        <a><span style="display: block;" onclick="openNav()">Filter</span></a>
+        <a href="#contact">Arrived</a>
+        <a href="#about">Not Arrived</a><div id="myNav" class="overlay">
 
             <!-- Button to close the overlay navigation -->
-            <a href="javascript:void(0)" class="closebtn" onclick="closeFilter()">&times;</a>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
         <!-- Overlay content -->
         <div class="overlay-content">
@@ -35,6 +36,7 @@
             <input type="text" id="fname" name="fname"><br><br>
             <button onclick="getElementById('demo').innerHTML = Click()">Search</button>
         </div>
+
         
 
     </div>
