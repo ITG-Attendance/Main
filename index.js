@@ -3,7 +3,7 @@ function openNav1() {
     setTimeout(() => {  document.getElementById("myNav").style.width = "350px";
     document.getElementById("myNav").style.height = "250px";
     var element = document.getElementById("Option1");
-    element.classList.add("MojeFunkce");  }, 500);
+    element.classList.add("MojeFunkce");  }, 250);
        
 }
 function openNav2() {
@@ -11,7 +11,7 @@ function openNav2() {
     setTimeout(() => {document.getElementById("myNav").style.width = "350px";
     document.getElementById("myNav").style.height = "250px";
     var element = document.getElementById("Option2");
-    element.classList.add("MojeFunkce");}, 500);
+    element.classList.add("MojeFunkce");}, 250);
         
 }
 function Close(){
