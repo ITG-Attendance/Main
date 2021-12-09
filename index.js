@@ -11,8 +11,7 @@ function openNav2() {
     setTimeout(() => {document.getElementById("myNav").style.width = "350px";
     document.getElementById("myNav").style.height = "250px";
     var element = document.getElementById("Option2");
-    element.classList.add("MojeFunkce");}, 250);
-        
+    element.classList.add("MojeFunkce");document.getElementById("myNav").classList.add("DownNav");}, 250);
 }
 function Close(){
     closeNav1();
@@ -30,4 +29,8 @@ function closeNav1() {
     document.getElementById("myNav").style.height = "100px";
     var element = document.getElementById("Option2");
     element.classList.remove("MojeFunkce"); 
+    document.getElementById("myNav").classList.remove("DownNav");
+}
+function goHome(){
+    Close();
 }

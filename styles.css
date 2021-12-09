@@ -89,7 +89,7 @@ div.content {
 /* The Overlay (background) */
 
 .overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    
     height: 100%;
     width: 0;
     position: fixed;
@@ -116,6 +116,9 @@ div.content {
 
 
 /* Position the content inside the overlay */
+.DownNav{
+margin-top: 120px;
+}
 
 .overlay-content {
     position: relative;

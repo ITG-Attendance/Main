@@ -13,12 +13,11 @@
 
     <div class="sidebar">
         
-        <img src="ITGAS-Trans.png" style="width: 200px; height: 66px" padding="">
+        <img src="ITGAS-Trans.png" style="width: 200px; height: 66px" onclick="goHome()">
         <!--nějak udělat aby to zabýralo celé tlačítko ne jen "Home"-->
-        <a class="Acko"id="Option1"><span style="display: block;" onclick="openNav1()">Arrived</span></a>
-        <a class="Acko" id="Option2"><span style="display: block;" onclick="openNav2()">Not Arrived</span></a>
+        <a class="Acko"id="Option1"onclick="openNav1()"><span style="display: block;" >Arrived</span></a>
+        <a class="Acko" id="Option2"onclick="openNav2()"><span style="display: block;" >Not Arrived</span></a>
             <div id="myNav" class="overlay">
-
             <!-- Button to close the overlay navigation -->
             <a href="javascript:void(0)" class="closebtn" onclick="Close()">&times;</a>
 
@@ -27,9 +26,9 @@
             <label style="color:white;" for="date">Date</label>
             <input type="date" id="date" aria-describedby="date-format" min="2020-09-01"/>
             <div></div>
-            <label style="color:greenyellow;">In Time</label> 
+            <label>In Time</label> 
             <input type="checkbox" name=""id="">
-            <label style="color:red;">Late</label> 
+            <label>Late</label> 
             <input type="checkbox" name="" id="">
             <div></div>
             <label style="color:white;"for="fname">User:</label>
