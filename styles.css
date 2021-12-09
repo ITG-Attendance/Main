@@ -24,7 +24,8 @@ body {
     display: block;
 }
 
-.sidebar a.active {
+.MojeFunkce{
+    display: block;
     background-color: #f3ed65;
     color: rgb(0, 0, 0);
 }
@@ -92,7 +93,7 @@ div.content {
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    margin-top: 120px;
+    margin-top: 70px;
     margin-left: 200px;
     left: 0;
     top: 0;

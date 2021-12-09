@@ -12,15 +12,15 @@
 <body>
 
     <div class="sidebar">
+        
         <img src="ITGAS-Trans.png" style="width: 200px; height: 66px" padding="">
         <!--nějak udělat aby to zabýralo celé tlačítko ne jen "Home"-->
-        <a class="active" href="#home">Home</a>
-        <a><span style="display: block;" onclick="openNav()">Arrived</span></a>
-        <a><span style="display: block;" onclick="openNav()">Not Arrived</span></a>
+        <a id="Option1"><span style="display: block;" onclick="openNav1()">Arrived</span></a>
+        <a id="Option2"><span style="display: block;" onclick="openNav2()">Not Arrived</span></a>
             <div id="myNav" class="overlay">
 
             <!-- Button to close the overlay navigation -->
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="javascript:void(0)" class="closebtn" onclick="Close()">&times;</a>
 
         <!-- Overlay content -->
         <div class="overlay-content">
