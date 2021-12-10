@@ -23,17 +23,17 @@ body {
     display: block;
 }
 
-.MojeFunkce{
+.Active{
     display: block;
     background-color: #f3ed65;
     color: rgb(0, 0, 0);
 }
 
-.sidebar a:hover:not(.MojeFunkce) {
+.sidebar a:hover:not(.Active) {
     background-color: #555;
     color: white;
 }
-.sidebar .MojeFunkce:hover{
+.sidebar .Active:hover{
     background-color: rgb(185, 185, 92);
     color: rgb(0, 0, 0);
 }

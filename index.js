@@ -1,9 +1,9 @@
 function openNav1() {
-  if(document.getElementById("myNav").style.width !="350px")
-    {document.getElementById("myNav").style.width = "350px";
-    document.getElementById("myNav").style.height = "250px";
+  if(document.getElementById("Nav").style.width !="350px")
+    {document.getElementById("Nav").style.width = "350px";
+    document.getElementById("Nav").style.height = "250px";
     var element = document.getElementById("Option1");
-    element.classList.add("MojeFunkce");}
+    element.classList.add("Active");}
     else{
         Close();
     }
@@ -15,12 +15,12 @@ function DarkMode(){
 }
 
 function openNav2() {
-    if(document.getElementById("myNav").style.width !="350px")
+    if(document.getElementById("Nav").style.width !="350px")
     {
-    document.getElementById("myNav").style.width = "350px";
-    document.getElementById("myNav").style.height = "250px";
+    document.getElementById("Nav").style.width = "350px";
+    document.getElementById("Nav").style.height = "250px";
     var element = document.getElementById("Option2");
-    element.classList.add("MojeFunkce");document.getElementById("myNav").classList.add("DownNav");
+    element.classList.add("Active");document.getElementById("Nav").classList.add("DownNav");
     }
     else{
         Close();
@@ -31,17 +31,17 @@ function Close(){
     closeNav2();
 }
 function closeNav1() {
-    document.getElementById("myNav").style.width = "0px";
-    document.getElementById("myNav").style.height = "100px";
+    document.getElementById("Nav").style.width = "0px";
+    document.getElementById("Nav").style.height = "100px";
     var element = document.getElementById("Option1");
-    element.classList.remove("MojeFunkce"); 
+    element.classList.remove("Active"); 
 
 }function closeNav2() {
-    document.getElementById("myNav").style.width = "0px";
-    document.getElementById("myNav").style.height = "100px";
+    document.getElementById("Nav").style.width = "0px";
+    document.getElementById("Nav").style.height = "100px";
     var element = document.getElementById("Option2");
-    element.classList.remove("MojeFunkce"); 
-    document.getElementById("myNav").classList.remove("DownNav");
+    element.classList.remove("Active"); 
+    document.getElementById("Nav").classList.remove("DownNav");
 }
 function goHome(){
     Close();
