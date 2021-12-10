@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #0000001a;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -15,7 +15,6 @@ body {
 
 .sidebar a {
     display: block;
-    color: black;
     padding: 16px;
     text-decoration: none;
 }
@@ -89,7 +88,7 @@ div.content {
 /* The Overlay (background) */
 
 .overlay {
-    
+    background-color: #0000001a;
     height: 100%;
     width: 0;
     position: fixed;
@@ -103,9 +102,6 @@ div.content {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    background-color: rgb(255, 255, 255);
-    /* Black fallback color */
-    background-color: rgba(255, 255, 255, 0.9);
 
     /* Black w/opacity */
     overflow-x: hidden;
@@ -139,7 +135,6 @@ margin-top: 120px;
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
     display: block;
     /* Display block instead of inline */
     transition: 0.3s;
@@ -165,7 +160,10 @@ margin-top: 120px;
 }   
 
 
-
+.dark-mode{
+    background-color: rgb(38, 38, 38);
+    color: whitesmoke;
+}
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 
 @media screen and (max-height: 450px) {

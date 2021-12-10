@@ -1,23 +1,35 @@
 function openNav1() {
-    Close();
-    setTimeout(() => {  document.getElementById("myNav").style.width = "350px";
+  if(document.getElementById("myNav").style.width !="350px")
+    {document.getElementById("myNav").style.width = "350px";
     document.getElementById("myNav").style.height = "250px";
     var element = document.getElementById("Option1");
-    element.classList.add("MojeFunkce");  }, 250);
+    element.classList.add("MojeFunkce");}
+    else{
+        Close();
+    }
        
 }
+function DarkMode(){
+    document.body.classList.toggle("dark-mode");
+    document.getElementById("sidebar").classList.toggle("dark-mode");
+}
+
 function openNav2() {
-    Close();
-    setTimeout(() => {document.getElementById("myNav").style.width = "350px";
+    if(document.getElementById("myNav").style.width !="350px")
+    {
+    document.getElementById("myNav").style.width = "350px";
     document.getElementById("myNav").style.height = "250px";
     var element = document.getElementById("Option2");
-    element.classList.add("MojeFunkce");document.getElementById("myNav").classList.add("DownNav");}, 250);
+    element.classList.add("MojeFunkce");document.getElementById("myNav").classList.add("DownNav");
+    }
+    else{
+        Close();
+    }
 }
 function Close(){
     closeNav1();
     closeNav2();
 }
-/* Close when someone clicks on the "x" symbol inside the overlay */
 function closeNav1() {
     document.getElementById("myNav").style.width = "0px";
     document.getElementById("myNav").style.height = "100px";

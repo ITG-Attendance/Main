@@ -17,17 +17,18 @@
         <!--nějak udělat aby to zabýralo celé tlačítko ne jen "Home"-->
         <a class="Acko"id="Option1"onclick="openNav1()"><span style="display: block;" >Arrived</span></a>
         <a class="Acko" id="Option2"onclick="openNav2()"><span style="display: block;" >Not Arrived</span></a>
-        <div style="padding-top: 460px;">
+        <div style="padding-top: 410px;">
+            <a onclick="DarkMode()">Dark Mode</a>
         <a>Settings</a>
         <a style="background-color: #fcf465;">User</a>
         </div>    
         <div id="myNav" class="overlay">
             <!-- Button to close the overlay navigation -->
-            <a href="javascript:void(0)" class="closebtn" onclick="Close()">&times;</a>
+            <a class="closebtn" onclick="Close()">&times;</a>
 
         <!-- Overlay content -->
         <div class="overlay-content">
-            <label style="color:white;" for="date">Date</label>
+            <label" for="date">Date</label>
             <input type="date" id="date" aria-describedby="date-format" min="2020-09-01"/>
             <div></div>
             <label>In Time</label> 
@@ -35,7 +36,7 @@
             <label>Late</label> 
             <input type="checkbox" name="" id="">
             <div></div>
-            <label style="color:white;"for="fname">User:</label>
+            <label "for="fname">User:</label>
             <input type="text" id="fname" name="fname"><br><br>
             <button onclick="getElementById('demo').innerHTML = Click()">Search</button>
         </div>
