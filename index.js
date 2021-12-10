@@ -7,11 +7,21 @@ function openNav1() {
     else{
         Close();
     }
-       
 }
+Dark=false;
+
 function DarkMode(){
-    document.body.classList.toggle("dark-mode");
-    document.getElementById("sidebar").classList.toggle("dark-mode");
+if(Dark){
+    Dark=false;
+    document.body.classList.add("dark-mode");
+    document.getElementById("sidebar").classList.add("dark-mode");
+}
+else{
+    Dark=true;
+    document.body.classList.remove("dark-mode");
+    document.getElementById("sidebar").classList.remove("dark-mode");
+}
+
 }
 
 function openNav2() {

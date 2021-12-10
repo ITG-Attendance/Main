@@ -5,12 +5,15 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" href="ITGAS-logo2.png">
     <script src="index.js"></script>
+    
     <title>Settings</title>
 </head>
-<body>
+<body onload="DarkMode();">
     <div class="sidebar">
     <a href="index.html" style="padding: 0;"><img src="ITGAS-Trans.png" style="width: 200px; height: 66px"></a>
     <a onclick="DarkMode()">Dark Mode</a>
-    </div> 
+    <a>Username</a>
+    <a>Password</a>
+    </div>
 </body>
 </html>
