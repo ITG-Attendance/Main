@@ -8,8 +8,7 @@ function openNav1() {
         Close();
     }
 }
-Dark=false;
-
+Dark=false;/*Udělat proměnou na API aby se to ukládalo na obě stránky */
 function DarkMode(){
 if(Dark){
     Dark=false;
