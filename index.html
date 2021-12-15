@@ -9,18 +9,14 @@
     <script src="index.js"></script>
 </head>
 
-<body onload="DarkMode();">
+<body>
 
-    <div class="sidebar">
-        
+    <div class="sidebar">        
         <img src="ITGAS-Trans.png" style="width: 200px; height: 66px" onclick="goHome()">
         <!--nějak udělat aby to zabýralo celé tlačítko ne jen "Home"-->
         <a id="Option1" onclick="openNav1()"><span style="display: block;" >Arrived</span></a>
         <a id="Option2" onclick="openNav2()"><span style="display: block;" >Not Arrived</span></a>
         <div style="padding-top: 460px;">
-            
-            <a href="Settings.html" style="color:black">Settings</a>
-        <a class="Active">User</a>
         </div>    
         <div id="Nav" class="overlay">
             <!-- Button to close the overlay navigation -->
@@ -34,28 +30,33 @@
             <label>In Time</label> 
             <input type="checkbox" name=""id="">
             <label>Late</label> 
-            <input type="checkbox" name="" id="">
-            <div></div>
-            <label "for="fname">User:</label>
-            <input type="text" id="fname" name="fname"><br><br>
-            <button onclick="getElementById('demo').innerHTML = Click()">Search</button>
+            <input type="checkbox" name="" id=""><br>
+            <input type="text" name="UserName" id="UN" value="User">
+            <br>
+            <button type="button">Seach</button> 
         </div>
     </div>
-    
-
     <!-- Use any element to open/show the overlay navigation menu -->
-    
-    </div>
-
+</div>
+    <div class="dropdown">
+        <button class="dropbtn">User</button>
+        <div class="dropdown-content">
+          <a href="#">Dark<label class="switch" style="float:right">
+            <input type="checkbox" id="Dark">
+            <span class="slider round" onclick="DarkMode()"></span>
+          </label></a>
+          <a href="#">Amogusus</a>
+          <a href="#">SUSSY</a>
+        </div>
+      </div> 
     <div class="content">
         <div class="card">
             <div class="container">
-                <h4><b>Wellcome User</b></h4>
+                <h4><b>Welcome User</b></h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat id alias rem nostrum voluptas molestiae impedit illo consequatur, maxime assumenda velit sequi nulla reiciendis distinctio facere? Explicabo magni sit dicta.</p>
             </div>
         </div>
     </div>
 
 </body>
-
 </html>

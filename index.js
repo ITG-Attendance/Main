@@ -8,18 +8,18 @@ function openNav1() {
         Close();
     }
 }
-Dark=false;/*Udělat proměnou na API aby se to ukládalo na obě stránky */
+
+/*Udělat proměnou na API aby se to ukládalo na obě stránky */
 function DarkMode(){
-if(Dark){
-    Dark=false;
-    document.body.classList.add("dark-mode");
-    document.getElementById("sidebar").classList.add("dark-mode");
-}
-else{
-    Dark=true;
-    document.body.classList.remove("dark-mode");
-    document.getElementById("sidebar").classList.remove("dark-mode");
-}
+    var doc = document.getElementById("Dark");
+    if(doc.checked){
+        document.body.classList.remove("dark-mode");
+        document.getElementById("sidebar").classList.remove("dark-mode");
+    }
+    else{
+        document.body.classList.add("dark-mode");
+        document.getElementById("sidebar").classList.add("dark-mode");        
+    }
 
 }
 
