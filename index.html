@@ -11,44 +11,44 @@
 
 <body>
 
-    <div class="sidebar">        
+    <div class="sidebar">
         <img src="ITGAS-Trans.png" style="width: 200px; height: 66px" onclick="goHome()">
         <!--nějak udělat aby to zabýralo celé tlačítko ne jen "Home"-->
         <a id="Option1" onclick="openNav1()"><span style="display: block;" >Arrived</span></a>
         <a id="Option2" onclick="openNav2()"><span style="display: block;" >Not Arrived</span></a>
         <div style="padding-top: 460px;">
-        </div>    
+        </div>
         <div id="Nav" class="overlay">
             <!-- Button to close the overlay navigation -->
             <a class="closebtn" onclick="Close()">&times;</a>
 
-        <!-- Overlay content -->
-        <div class="overlay-content">
-            <label" for="date">Date</label>
-            <input type="date" id="date" aria-describedby="date-format" min="2020-09-01"/>
-            <div></div>
-            <label>In Time</label> 
-            <input type="checkbox" name=""id="">
-            <label>Late</label> 
-            <input type="checkbox" name="" id=""><br>
-            <input type="text" name="UserName" id="UN" value="User">
-            <br>
-            <button type="button">Seach</button> 
+            <!-- Overlay content -->
+            <div class="overlay-content" id="Overlay">
+                <label for="date">Date</label>
+                <input type="date" id="date" aria-describedby="date-format" min="2020-09-01" />
+                <div></div>
+                <label>In Time</label>
+                <input type="checkbox" name="InTime" id="InTime">
+                <label>Late</label>
+                <input type="checkbox" name="Late" id="Late"><br>
+                <input type="text" name="UserName" id="UN" value="User">
+                <br>
+                <button type="submit">Seach</button>
+            </div>
         </div>
+        <!-- Use any element to open/show the overlay navigation menu -->
     </div>
-    <!-- Use any element to open/show the overlay navigation menu -->
-</div>
     <div class="dropdown">
         <button class="dropbtn">User</button>
         <div class="dropdown-content">
-          <a href="#">Dark<label class="switch" style="float:right">
+            <a href="# ">Dark<label class="switch" style="float:right">
             <input type="checkbox" id="Dark">
             <span class="slider round" onclick="DarkMode()"></span>
           </label></a>
-          <a href="#">Amogusus</a>
-          <a href="#">SUSSY</a>
+            <a href="#">placeholder</a>
+            <a href="#">placeholder</a>
         </div>
-      </div> 
+    </div>
     <div class="content">
         <div class="card">
             <div class="container">
@@ -59,4 +59,5 @@
     </div>
 
 </body>
+
 </html>
